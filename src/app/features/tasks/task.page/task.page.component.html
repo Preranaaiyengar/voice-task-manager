@@ -1,0 +1,25 @@
+<div class="task-container">
+  <h2 class="task-heading">📝 Your Tasks</h2>
+
+  <div class="task-input-row">
+    <input [(ngModel)]="taskText" placeholder="Enter a task..." class="task-input" />
+    <button (click)="addTask()" class="add-task-btn">➕ Add Task</button>
+  </div>
+
+  <div *ngFor="let task of tasks" class="task-item">
+    <span [class.done]="task.isDone" class="task-title">
+      {{ task.title }}
+    </span>
+    <div>
+      <button (click)="toggleDone(task.id)" class="action-btn done-btn" title="Mark Done">✔️</button>
+      <button (click)="delete(task.id)" class="action-btn delete-btn" title="Delete">🗑️</button>
+    </div>
+  </div>
+
+  <div class="dashboard-button-wrapper">
+    <button routerLink="/dashboard" class="dashboard-btn" (click)="goToDashboard()">📊 View Dashboard</button>
+
+  </div>
+  <p class="date-display">📅 {{ today | date: 'fullDate' }}</p>
+
+</div>

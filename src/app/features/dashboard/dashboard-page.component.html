@@ -1,0 +1,20 @@
+<div class="dashboard-wrapper">
+    <h2>📊 Weekly Productivity Overview</h2>
+    <h3 style="margin-top: 10px; color: #6200ea;">{{ motivation }}</h3>
+  
+    <canvas
+      baseChart
+      [data]="chartData"
+      [type]="chartType"
+      [options]="chartOptions"
+      style="max-width: 600px; margin-top: 20px;"
+    ></canvas>
+
+    <div class="dashboard-actions">
+        <button routerLink="/tasks" class="back-to-tasks-btn" (click)="goToTask() ">⬅️ Back to Tasks</button>
+      </div>
+  </div>
+  
+    
+  
+  
