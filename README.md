@@ -15,7 +15,6 @@ Manage your tasks hands-free with simple voice commands:
 ## 🔗 Live Demo
 
 👉 [View Live App](https://profound-churros-89d876.netlify.app/tasks)  
-_Replace with your deployed URL_
 
 ---
 
@@ -24,7 +23,6 @@ _Replace with your deployed URL_
 - **Angular**
 - **ng2-charts (Chart.js)**
 - **Web Speech API (Voice Control)**
-- **Firebase (optional for hosting or auth)**
 - **Netlify (for deployment)**
 
 ---
