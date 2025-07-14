@@ -57,13 +57,14 @@ ng build --configuration production
 ```
 
 🎤 **Voice Commands Supported**
-Command	Action
-"Add task <task>"	Adds a new task
-"Delete last task"	Deletes last task
-"Mark done"	Marks last task done
-"Go to dashboard"	Opens dashboard
-"Back to tasks"	Goes back to tasks
-"Dark mode / Light mode"	Toggles theme
+
+
+- **"Add task <task>"	Adds a new task**
+- **"Delete last task"	Deletes last task**
+- **"Mark done"	Marks last task done**
+- **"Go to dashboard"	Opens dashboard**
+- **"Back to tasks"	Goes back to tasks**
+- **"Dark mode / Light mode"	Toggles theme**
 
 📱 **Responsive**
 Optimized for Desktop and Mobile
